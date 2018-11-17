@@ -3,10 +3,18 @@
 
     <color name="white">#FFFFFF</color>
 
+    <color name="black">#000000</color>
+
+    <color name="transparent">#00000000</color>
+
     <color name="project_title_color">#323232</color>
 
     <color name="project_right_color">#828587</color>
 
     <color name="project_line_color">#EFEFF4</color>
+
+    <color name="index_group_bg_color">#FAFAFA</color>
+
+    <color name="index_radio_bg_color">#BDBDBD</color>
 
 </resources>

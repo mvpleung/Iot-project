@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.liangzc.light.IndexActivity"
+            android:name="com.liangzc.light.ui.index.IndexActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide">
             <intent-filter>

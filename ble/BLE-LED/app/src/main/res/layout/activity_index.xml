@@ -4,16 +4,38 @@
     android:layout_height="match_parent"
     android:background="@color/white">
 
-    <include
-        android:id="@+id/title_layout"
-        layout="@layout/project_title_layout" />
-
-    <RelativeLayout
+    <FrameLayout
+        android:id="@+id/fm_content"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/title_layout">
+        android:layout_above="@+id/content_line" />
 
+    <View
+        android:id="@+id/content_line"
+        android:layout_width="match_parent"
+        android:layout_height="0.7dip"
+        android:layout_above="@+id/index_group"
+        android:background="@color/project_line_color" />
 
-    </RelativeLayout>
+    <RadioGroup
+        android:id="@+id/index_group"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/value_10_80"
+        android:layout_alignParentBottom="true"
+        android:background="@color/index_group_bg_color"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/index"
+            style="@style/RadioTabStyle"
+            android:checked="true"
+            android:drawableTop="@drawable/index_selector" />
+
+        <RadioButton
+            android:id="@+id/me"
+            style="@style/RadioTabStyle"
+            android:drawableTop="@drawable/me_selector" />
+
+    </RadioGroup>
 
 </RelativeLayout>

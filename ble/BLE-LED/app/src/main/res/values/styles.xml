@@ -16,4 +16,15 @@
         <item name="android:activityCloseEnterAnimation">@anim/slide_left_in</item>
     </style>
 
+    <style name="RadioTabStyle">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:button">@null</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:paddingTop">@dimen/value_1_80</item>
+        <item name="android:background">@drawable/index_radio_button_bg</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
 </resources>

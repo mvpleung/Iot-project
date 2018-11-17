@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <include
+        android:id="@+id/title_layout"
+        layout="@layout/project_title_layout" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title_layout">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/value_2_80"
+            android:layout_marginTop="27dip"
+            android:text="亮度调节"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_14" />
+
+        <SeekBar
+            android:id="@+id/light_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/value_18_80"
+            android:layout_marginRight="@dimen/value_4_80"
+            android:layout_marginTop="@dimen/value_4_80" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
